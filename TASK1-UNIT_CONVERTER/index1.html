@@ -1,0 +1,40 @@
+<html>
+    <head><title>unit converter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color: bisque;">
+<div class="converter">
+    <h1>Unit Converter</h1>
+    <!-- <label for="input"></label> -->
+    <input type="text" placeholder="Convert From" id="input">
+    <span>=</span>
+    <!-- <label for="result"></label> -->
+    <input type="text" placeholder="Convert To" id="result">
+        <select  id="from">
+            <option value="meter">Meter</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="centimeter">Centimeter</option>
+            <option value="nanometer">Nanometer</option>
+            <option value="micrometer">Micrometers</option>
+            <option value="inch">Inch</option>
+            <option value="foot">Foot</option>
+            <option value="yard">Yard</option>
+            <option value="mile">Mile</option>
+        </select>
+    <select  id="to">
+        <option value="meter">Meter</option>
+        <option value="kilometer">Kilometer</option>
+        <option value="centimeter">Centimeter</option>
+        <option value="nanometer">Nanometer</option>
+        <option value="micrometer">Micrometers</option>
+        <option value="inch">Inch</option>
+        <option value="foot">Foot</option>
+        <option value="yard">Yard</option>
+        <option value="mile">Mile</option>
+    </select>
+    <input type="button"  id="convert-btn" value="Convert">
+</div>
+<!-- <button id="convert-btn">Convert</button> -->
+<script src="convert.js"></script>
+</body>
+</html>
